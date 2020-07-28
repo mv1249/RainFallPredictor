@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>RainFall Predictor</title>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">RainFall Predictor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/parameters">Parameters<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/predict">Predict<span class="sr-only">(current)</span></a>
+                </li>
+
+    </nav>
+    <!-- blog -->
+
+    <div class="container my-2" action='/parameters'>
+
+        <div class="row featurette mx-2 my-3">
+            <div class="col-md-9 my-2">
+                <h2 class="featurette-heading">Temperature<span class="text-muted"></span></h2>
+                <p class="lead">Higher temperatures affect the conditions for cloud formation and rainfall. Heavy rain showers, such as summer thunderstorms, are influenced more by temperature than rain from larger widespread rain systems. Heavy rain has far-reaching
+                    consequences for society, and these could worsen at higher temperatures.</p>
+            </div>
+            <div class="col-md-3 my-2">
+                <img src="/static/temp.jfif" width="200" height="200" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+
+        <div class="row featurette mx-2 my-3">
+            <div class="col-md-9 order-md-2 my-6">
+                <h2 class="featurette-heading">Wind Speed<span class="text-muted"></span></h2>
+                <p class="lead">Wind is simply the movement of air. The movement of air can bring a cooling breeze on a hot summer day, while no air movement can result in stifling conditions. In the winter, no air movement makes cold weather tolerable, while a strong
+                    wind in cold weather is at best uncomfortable and at worst dangerous. Moving air, in effect, is what “makes” our weather. On a global scale, atmospheric circulation of the air is driven by the temperature difference between the poles
+                    and the Equator, and the rotation of the Earth which results in the Coriolis force.</p>
+            </div>
+            <div class="col-md-3 order-md-1 my-5">
+                <img src="/static/wind.jfif" width="200" height="200" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <div class="row featurette mx-2 my-3">
+            <div class="col-md-9 my-6">
+                <h2 class="featurette-heading">Wind Direction<span class="text-muted"></span></h2>
+                <p class="lead">Generally, wind affects the amount of the precipitation a place receives at a particular time. The amount of precipitation depends on the nature of the wind, the wind that blows close to the surface of water bodies carry the moisture content
+                    that are used to form rain on the direction to that wind, If the wind blows towards the land, then it will cause aa strong rainfall on the land. While the wind that moves close to the land does not carry enough moisture, therefore
+                    it causes little or no rainfall to its destination. Precipitation is basically direct proportional to the amount of the wind and the moisture content contained in that wind.
+                </p>
+            </div>
+            <div class="col-md-3 my-5">
+                <img src="/static/winddir.jfif" width="200" height="200" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <div class="row featurette mx-2 my-3">
+            <div class="col-md-9 order-md-2 my-2">
+                <h2 class="featurette-heading">Wind Gust<span class="text-muted"></span></h2>
+                <p class="lead">A gust and wind both refer to the movement of different gases in the earth’s atmosphere around the earth. Wind is created by the difference in atmospheric pressure caused by lighter hot air and denser cold air. On the other hand, gusts
+                    are brief increases in the wind’s speed, mainly caused by the wind passing through the terrain. Wind blows in varying speeds throughout the entire day. Gusts only occur for extremely short periods of time, usually lasting no more than
+                    just 20 seconds, occurring at 2-minute intervals.
+                </p>
+            </div>
+            <div class="col-md-3 order-md-1 my-5">
+                <img src="/static/windgust.jfif" width="200" height="200" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <div class="row featurette mx-2 my-3">
+            <div class="col-md-9 my-2">
+                <h2 class="featurette-heading">Sunshine<span class="text-muted"></span></h2>
+                <p class="lead">The sun is what makes the water cycle work. The sun provides what almost everything on Earth needs to go—energy, or heat. Heat causes liquid and frozen water to evaporate into water vapor gas, which rises high in the sky to form clouds...clouds
+                    that move over the globe and drop rain and snow. This process is a large part of the water cycle.</p>
+            </div>
+            <div class="col-md-3 my-5">
+                <img src="/static/sunshine.jfif" width="200" height="200" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <div class="row featurette mx-2 my-3">
+            <div class="col-md-9 order-md-2 my-4">
+                <h2 class="featurette-heading">Evaporation<span class="text-muted"></span></h2>
+                <p class="lead">Evaporation is an important process in the global water cycle. Solar radiation hits the surface of water or land and causes water to change state from a liquid to a gas. This is how water vapour enters the atmosphere: moisture in the atmosphere
+                    is linked to cloud formation and rainfall. Evaporation acts like an air conditioner for the surface because heat is used when water enters the atmosphere as moisture. But at the same time, water vapour acts as a green house gas by
+                    trapping radiation in the lower atmosphere.</p>
+            </div>
+            <div class="col-md-3 order-md-1 my-5">
+                <img src="/static/evaporatation.jfif" width="200" height="200" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    </div>
+
+</body>
